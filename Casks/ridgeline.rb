@@ -17,6 +17,11 @@ cask "ridgeline" do
 
   app "Ridgeline.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/Ridgeline.app"]
+  end
+
   zap trash: [
     "~/Library/Application Support/ridgeline",
   ]
