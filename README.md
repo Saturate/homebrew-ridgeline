@@ -1,4 +1,4 @@
-# Homebrew Tap for Ridgeline
+# Homebrew Tap for [Ridgeline](https://github.com/Saturate/ridgeline)
 
 Cross-tenant pull request monitor for Azure DevOps.
 
