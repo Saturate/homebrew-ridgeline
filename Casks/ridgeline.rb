@@ -16,6 +16,7 @@ cask "ridgeline" do
   homepage "https://github.com/Saturate/ridgeline"
 
   app "Ridgeline.app"
+  binary "#{appdir}/Ridgeline.app/Contents/MacOS/ridgeline"
 
   postflight do
     system_command "/usr/bin/xattr",
