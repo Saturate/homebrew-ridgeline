@@ -1,13 +1,13 @@
 cask "ridgeline" do
-  version "0.7.0"
+  version "0.8.0"
 
   on_arm do
-    sha256 "7600506dcd2a4f6d3512b62594d012708d724ea8c6950f9e6f93f726c3185225"
+    sha256 "1a3d710b8bc248759df2192f8af70752c3f58de40bf30174c942ada8f2175924"
     url "https://github.com/Saturate/ridgeline/releases/download/v#{version}/Ridgeline_#{version}_aarch64.dmg"
   end
 
   on_intel do
-    sha256 "6d5e733598fd2aa2da7fd4da3e93140340ef62b2f6e25fff540425e9a4cc354d"
+    sha256 "edb8b0657dbb30354f9187e271a7e52604a0b89294e77894a45ae434cbe0d000"
     url "https://github.com/Saturate/ridgeline/releases/download/v#{version}/Ridgeline_#{version}_x64.dmg"
   end
 
